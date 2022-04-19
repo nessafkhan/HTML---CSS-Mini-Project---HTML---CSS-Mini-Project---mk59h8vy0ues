@@ -53,3 +53,67 @@ li{
     background-color: #fff;
     color: #291029;
 }
+.main-section{
+    width: 90%;
+    margin: auto;
+}
+.banner{
+    height: 550px;
+    margin-top: 20px;
+    padding-left: 100px;
+    background-color: #744775;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 48px 48px 300px 48px;
+}
+.img-section img{
+    width: 399px;
+    height:369px;
+}
+.text-section h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 34px;
+}
+.text-section p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+.banner-btns button{
+    height: 50px;
+    width: 168px;
+    margin-right: 20px;
+    border-radius: 7px;
+    border: 2px solid #D099D1;
+    background-color: #D099D1;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 800;
+}
+.banner-btns .discount{
+    border: 2px solid #D099D1;
+    background-color: #744775;
+}
+
+
+/* sudo css */
+.signup-btn:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    transition: ease-in .3s;
+}
+.signin-btn:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: ease-in .3s;
+}
+.banner-btns .get-started:hover{
+    background-color: #744775;
+    transition: ease-in .3s;
+}
+.banner-btns .discount:hover{
+    background-color: #D099D1;
+    transition: ease-in .3s;
+}
