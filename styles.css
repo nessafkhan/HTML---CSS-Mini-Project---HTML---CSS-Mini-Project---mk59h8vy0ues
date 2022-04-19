@@ -1,1 +1,55 @@
-
+:root{
+    --primary-color: #291029;
+} 
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+li{
+    list-style: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.end-nav{
+    display: flex;
+    align-items: center;
+}
+.select-lang{
+    display: flex;
+    padding: 10px;
+}
+.drop-down{
+    background: none;
+    border: none;
+    outline: none;
+}
+.btn{
+    padding: 10px;
+}
+.signup-btn{
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.signin-btn{
+    padding: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background-color: #fff;
+    color: #291029;
+}
