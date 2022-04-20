@@ -169,6 +169,24 @@ li{
     color: #D099D1;
 }
 
+/* FOOTER SECTION */
+.socials{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-right-message{
+    text-align: center;
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.socials .logo{
+    padding: 20px;
+}
+
 /* SUDO css */
 .signup-btn:hover{
     background-color: #fff;
