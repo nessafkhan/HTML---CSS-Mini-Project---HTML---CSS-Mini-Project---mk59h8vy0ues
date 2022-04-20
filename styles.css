@@ -9,6 +9,13 @@ body{
 }
 
 /* NAVBAR */
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
 a{
     text-decoration: none;
     color: var(--primary-color);
@@ -169,6 +176,52 @@ li{
     color: #D099D1;
 }
 
+/* CONTACT SECTION */
+.contact{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--primary-color);
+}
+.contact h2{
+    text-align: center;
+}
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 1rem 0.8rem;
+  border: 1px solid var(--primary-color);
+  outline: 0;
+  border-radius: 5px;
+  transition: border 0.15s;
+}
+.form-item textarea {
+  display: block;
+
+  resize: vertical;
+}
+.submit-btn {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 800;
+}
+.contact label > sup{
+    color: red;
+}
+.contact-section .img-section img{
+    width: 399px;
+    height:369px;
+}
+
 /* FOOTER SECTION */
 .socials{
     margin-top: 50px;
@@ -223,3 +276,11 @@ li{
     transition: ease-in .3s;
     cursor: pointer;
 }
+.submit-btn:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    transition: ease-in .3s;
+    cursor: pointer
+}
+
+/* MEDIA QUERIES */

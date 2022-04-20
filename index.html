@@ -12,31 +12,33 @@
 </head>
 <body>
     <!-- header starts -->
-    <nav>
-        <ul class="nav-links">
-        <div class="logo"><a class="logo-text" href="#">WindAesthetics</a></div>
-        <li>
-            <div class="center-nav">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">pricing</a></li>
+    <header>
+        <nav>
+            <ul class="nav-links">
+            <div class="logo"><a class="logo-text" href="#">WindAesthetics</a></div>
+            <li>
+                <div class="center-nav">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">pricing</a></li>
+                </div>
+            </li>        
+            <div class="end-nav">
+                <div class="select-lang">
+                    <img src="assets/globe-grid-svgrepo-com.svg" alt="select-lang">
+                    <select class="drop-down" name="lang" id="lang">
+                        <option value="eng">Eng</option>
+                        <option value="fr">FR</option>
+                        <option value="esp">Esp</option>
+                    </select>
+                </div>
+                <div class="btn"><button class="signup-btn">Sign Up</button></div>
+                <div class="btn"><button class="signin-btn">Sign In</button></div>
+            </ul>
             </div>
-        </li>        
-        <div class="end-nav">
-            <div class="select-lang">
-                <img src="assets/globe-grid-svgrepo-com.svg" alt="select-lang">
-                <select class="drop-down" name="lang" id="lang">
-                    <option value="eng">Eng</option>
-                    <option value="fr">FR</option>
-                    <option value="esp">Esp</option>
-                </select>
-            </div>
-            <div class="btn"><button class="signup-btn">Sign Up</button></div>
-            <div class="btn"><button class="signin-btn">Sign In</button></div>
-        </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- header ends -->
 
 
@@ -121,8 +123,40 @@
         </section>
         <!-- bottom banner section ends -->
 
+        <!-- Contact section starts -->
+
+<section class="contact">
+    <div class="contact-section">
+      <h2>Contact Us</h2>
+      <div class="img-section">
+          <img src="assets/5124556.jpg" alt="contact">
+      </div>
+    </div>
+    <div class="contact-form-wrapper">
+      <form>
+        <div class="form-item">
+          <label for="name">Name<sup>*</sup></label>
+          <input class="feedback-input" type="text" name="name" required />
+        </div>
+        <div class="form-item">
+            <label for="email">Email<sup>*</sup></label>
+          <input class="feedback-input" type="email" name="email" required />
+        </div>
+        <div class="form-item">
+            <label for="message">Message<sup>*</sup></label>
+          <textarea class="feedback-input" name="message"></textarea>
+        </div>
+        <input class="submit-btn" type="submit" value="Submit" />  
+      </form>
+    </div>
+  </div>
+</section>
+
+        <!-- Contact section ends -->
+
     </main>
     <!-- main section ends -->
+
 
     <!-- footer starts -->
     <footer>
