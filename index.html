@@ -133,7 +133,7 @@
       </div>
     </div>
     <div class="contact-form-wrapper">
-      <form>
+      <form id="gfrom" method="POST" enctype="multipart/form-data">
         <div class="form-item">
           <label for="name">Name<sup>*</sup></label>
           <input class="feedback-input" type="text" name="name" required />
@@ -143,12 +143,16 @@
           <input class="feedback-input" type="email" name="email" required />
         </div>
         <div class="form-item">
-            <label for="message">Message<sup>*</sup></label>
+            <label for="message">Message</label>
           <textarea class="feedback-input" name="message"></textarea>
         </div>
         <input class="submit-btn" type="submit" value="Submit" />  
       </form>
     </div>
+  </div>
+
+  <div style="display: none;" class="confirm-message" id="thankyou_message">
+      <h2><em>Thanks!</em>we'll contact you soon!</h2>
   </div>
 </section>
 
@@ -174,5 +178,13 @@
         <p class="copy-right-message">Copyright © WindAesthetics Private Ltd 2022</p>
     </footer>
     <!-- footer ends -->
+
+
+    <!-- SCRIPTS -->
+
+    <!-- Form submit-handler -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/form_submit_handler.js"></script>
+
 </body>
 </html>
