@@ -17,6 +17,12 @@
 
 WindAesthetics is photography company's landing page website wich has static data. It's shows company's goals and vision. It's includes a feedback form and social media links to company's social accounts.
 
+## Features
+  -Funtional contact form(data recieved to Google Drive)
+  -Footer with social media links
+  -Back to top button
+  -Hover effect on cards and buttons
+
 ### Built With
 HTML CSS and JavaScript
 

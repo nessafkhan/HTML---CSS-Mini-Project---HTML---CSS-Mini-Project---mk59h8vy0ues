@@ -222,6 +222,22 @@ li{
     height:369px;
 }
 
+/* BACK TOP SECTION */
+#back-to-top{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: var(--primary-color);
+    border: none;
+    padding: .5rem;
+    border-radius: 5px;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+.hidden {
+    display: none;
+}
+
 /* FOOTER SECTION */
 .socials{
     margin-top: 50px;
@@ -281,6 +297,12 @@ li{
     color: var(--primary-color);
     transition: ease-in .3s;
     cursor: pointer
+}
+.back-to-top:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: ease-in .3s;
+    opacity: 60%;
 }
 
 /* MEDIA QUERIES */
