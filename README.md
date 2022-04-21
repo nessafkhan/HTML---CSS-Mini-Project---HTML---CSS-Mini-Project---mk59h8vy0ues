@@ -21,4 +21,4 @@ WindAesthetics is photography company's landing page website wich has static dat
 HTML CSS and JavaScript
 
 
-![alt text](assets/preview.png)
+![alt text](/assets/preview.png)
