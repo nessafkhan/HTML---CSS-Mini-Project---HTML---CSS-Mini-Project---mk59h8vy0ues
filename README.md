@@ -1,6 +1,3 @@
-<<<<<<< HEAD
- 
-=======
 <h1 align="center">WindAesthetics</h1>
 
 
